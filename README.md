@@ -65,17 +65,17 @@ of the form
 
 and put those scripts in a folder $tests. We execute all tests once using
 
-   plain-test $tests
+    plain-test $tests
 
 This will execute all scripts and therefore make the desired calls to the REST API.
 Ouput is appended to the files. Check the output is as expected.
 
 Now add those scripts to version control:
 
-   cd $tests
-   git init .
-   git add *.test
-   git commit -m "expected results"
+    cd $tests
+    git init .
+    git add *.test
+    git commit -m "expected results"
 
 To run the test suite again do
 
