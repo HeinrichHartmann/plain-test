@@ -51,7 +51,8 @@ test-files have ending `.test` and the following structure:
 The parts following `<code>` are optional.
 
 When applied to a test-file, the following process is triggered:
-1. test-file is truncated to the <code>-part
+
+1. test-file is truncated to the `<code>`-part
 2. test-file is executed as a file (using `os.evalvp()` syscall) 
 3. output to stdout and stderr is caputred and appended to the file along with a delimiter
 
