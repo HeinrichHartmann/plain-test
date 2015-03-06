@@ -40,7 +40,7 @@ Usage:
 plain-test takes a number of test-files or dirs as parameter. If dirs are provided plain-test is
 executed over all test-files inside the directory.
 
-test-files have to have ending `.test` and have the following structure:
+test-files have ending `.test` and the following structure:
 
     <code>
     === stdout ===
@@ -48,7 +48,7 @@ test-files have to have ending `.test` and have the following structure:
     === stderr ===
     <err>
     
-The parts following <code> are optional.
+The parts following `<code>` are optional.
 
 When applied to a test-file, the following process is triggered:
 1. test-file is truncated to the <code>-part
